@@ -22,7 +22,6 @@
 body {
   color: black;
   background-color: white;
-  margin-left:2em;
 }
 
 .bold {
@@ -55,6 +54,10 @@ hr {
 
 }
 
+.serif {
+  font-family: 'droid';
+}
+
 @font-face {
     font-family: 'Dolce';
     src: url('fonts/Dolce Vita Light.ttf');
@@ -66,6 +69,14 @@ hr {
 @font-face {
     font-family: 'bebas';
     src: url('fonts/BEBAS__.TTF');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'droid';
+    src: url('fonts\DroidSerif-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 
