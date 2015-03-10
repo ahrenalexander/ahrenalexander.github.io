@@ -1,3 +1,29 @@
+/* FONT DECLARATIONS */
+@font-face {
+    font-family: 'Dolce';
+    src: url('fonts/Dolce Vita Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('fonts/BEBAS__.TTF');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'droid';
+    src: url('fonts/DroidSerif-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ID TAGS */
 #navbar {
   background-color:black;
   color:white;
@@ -19,16 +45,14 @@
   background-color:transparent;
 }
 
+/* GENERAL CLASSES */
+
 body {
   color: black;
   background-color: white;
 }
 
-.bold {
-  font-size: 1.5em;
-  font-family: "bebas";
-  word-spacing: 3px;
-}
+
 h1 {
   font-family: 'dolce';
   text-align: center;
@@ -45,6 +69,13 @@ hr {
     border-width: 1px;
 }
 
+/* FONT CLASSES */
+.bold {
+  font-size: 1.5em;
+  font-family: "bebas";
+  word-spacing: 3px;
+}
+
 .huge {
   font-family: "bebas";
   font-size: 30px;
@@ -55,45 +86,11 @@ hr {
 }
 
 .serif {
-  font-family: 'droid';
-}
-
-@font-face {
-    font-family: 'Dolce';
-    src: url('fonts/Dolce Vita Light.ttf');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'bebas';
-    src: url('fonts/BEBAS__.TTF');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'droid';
-    src: url('fonts\DroidSerif-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-.container {
-  text-align: center;
+  font-family: 'Georgia', 'Verdana';
 }
 
 .borders {
   border-width: 1px;
   border-style: solid;
   border-color: black;
-}
-
-.mybut {
-  height: 100px;
-  width: 100px;
-  align: center;
 }
