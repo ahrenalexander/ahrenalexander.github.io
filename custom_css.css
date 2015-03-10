@@ -1,0 +1,88 @@
+#navbar {
+  background-color:black;
+  color:white;
+  font-family: "Dolce";
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  border-style: outset;
+  border-width: 3px;
+  border-color: transparent;
+  border-top-color:#18CAE6;
+}
+
+#bluebar {
+  height: 10px;
+  width: 100%;
+  background-color:transparent;
+}
+
+body {
+  color: black;
+  background-color: white;
+  margin-left:2em;
+}
+
+.bold {
+  font-size: 1.5em;
+  font-family: "bebas";
+  word-spacing: 3px;
+}
+h1 {
+  font-family: 'dolce';
+  text-align: center;
+  font-size: 6rem;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: none;
+    margin-right: none;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.huge {
+  font-family: "bebas";
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  word-spacing: 3.5px;
+
+}
+
+@font-face {
+    font-family: 'Dolce';
+    src: url('fonts/Dolce Vita Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('fonts/BEBAS__.TTF');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container {
+  text-align: center;
+}
+
+.borders {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.mybut {
+  height: 100px;
+  width: 100px;
+  align: center;
+}
