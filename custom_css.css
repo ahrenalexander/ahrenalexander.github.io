@@ -69,8 +69,10 @@ hr {
 
 .center {
   text-align: center;
+  vertical-align:middle;
   margin-left: auto;
   margin-right: auto;
+  width: 70%;
 }
 
 /* FONT CLASSES */
@@ -82,7 +84,6 @@ hr {
 
 .huge {
   font-family: "bebas";
-  font-size: 30px;
   text-align: center;
   padding: 10px;
   word-spacing: 3.5px;
@@ -97,4 +98,8 @@ hr {
   border-width: 1px;
   border-style: solid;
   border-color: black;
+}
+
+.bigfont {
+  font-size: 400%;
 }
